@@ -37,11 +37,9 @@ At runtime, set text of the label will trigger animation automatically:
 myTypeWriterLabel.text = "This is a demo of typing label animation..."
 
 ```
-You can also trigger what you need after animation is finished:
+You can also know if the animation finished with this function:
 ```swift
-myTypeWriterLabel.onTypingAnimationFinished = {
-	//code goes here
-}
+myTypeWriterLabel.isAnimationFinished() // true | false
 ```
 Also works on attributedText:
 ```swift
