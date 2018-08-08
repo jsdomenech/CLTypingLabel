@@ -6,6 +6,9 @@ A lightweight UILabel subclass with character by character typewriter like anima
 
 iOS上自带逐字打印动画效果的UILabel
 
+
+Forked and edited to add isAnimationFinished() function.
+
 ## Installation
 
 ### Manual
