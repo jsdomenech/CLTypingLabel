@@ -59,6 +59,11 @@ import UIKit
     private var attributes: [NSAttributedStringKey: Any]?
     private var currentDispatchID: Int = 320
     private let dispatchSerialQ = DispatchQueue(label: "CLTypingLableQueue")
+ 
+    /* Know if the animation is Over // paused */
+    open func isAnimationFinished()->Bool{
+        return typingOver
+    }
     /*
      Setting the text will trigger animation automatically
      */
