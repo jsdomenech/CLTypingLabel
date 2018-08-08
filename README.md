@@ -4,10 +4,7 @@
 
 A lightweight UILabel subclass with character by character typewriter like animation in Swift, super simple to use
 
-iOS上自带逐字打印动画效果的UILabel
-
-
-Forked and edited to add isAnimationFinished() function.
+**Forked and edited to add isAnimationFinished() function.**
 
 ## Installation
 
